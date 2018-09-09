@@ -1,0 +1,166 @@
+﻿
+<!DOCTYPE html>
+<html lang="no">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/az-1.0.0.min.css" />
+    <link rel="stylesheet" href="/lib/templates/standard.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/fontawesome-all.css" />
+    <link rel="stylesheet" href="/lib/jqueryui/jquery-ui.min.css" />
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/lib/js/jquery.easing.min.js"></script>
+    <script src="/lib/js/jquery.matchHeight.js"></script>
+    <script src="/lib/js/moment-with-langs.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/jqueryui/jquery_ui_langs.js"></script>
+    <script src="/lib/numeral/numeral.min.js"></script>
+    <script src="/lib/numeral/locales.min.js"></script>
+    <script src="/lib/templates/functionlib.js"></script>
+    <script src="/lib/js/az-1.0.0.min.js"></script>
+    <script>
+
+        $(document).ready(function ()
+        {
+            initializePage(
+                {
+                    formStyle: true
+                }, function ()
+                {
+                    hideCoverSpin();
+                });
+        });
+
+    </script>
+</head>
+<body>
+
+    <form id="frmReg">
+        <div class="az-container">
+
+            <div class="az-row az-margin-t-28">
+                <div class="az-col xs-12 sm-6">
+
+                    <!--Card-->
+                    <div class="az-card adjust">
+                        <img class="az-image az-width-100" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                        <article>
+                            <name><i class="fas fa-user fa-fw"></i>John Doe</name>
+                            <address><i class="fas fa-home fa-lg"></i>8 Mile Road</address>
+                            <phone><i class="fas fa-phone fa-fw"></i>+47 123 45 678</phone>
+                            <email><i class="fas fa-envelope fa-fw"></i>john.doe@web2net.no</email>
+                        </article>
+
+                        <!--Card Overlay-->
+                        <div class="az-card-overlay">
+                            <div class="az-card-overlay-card az-display-middle">
+                                <a href="http://www.vg.no" target="_blank"><img class="az-image" src="https://www.w3schools.com/w3css/img_avatar3.png" /></a>
+                                <article>
+                                    <name><i class="fas fa-user fa-fw"></i>John Doe</name>
+                                    <address><i class="fas fa-home fa-lg"></i>8 Mile Road</address>
+                                    <phone><i class="fas fa-phone fa-fw"></i>+47 123 45 678</phone>
+                                    <email><i class="fas fa-envelope fa-fw"></i>john.doe@web2net.no</email>
+                                </article>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="az-col xs-12 sm-6 az-xs-margin-t-7 az-sm-margin-t-0">
+
+                    <!--Card-->
+                    <div class="az-card adjust">
+                        <img class="az-image az-width-100" src="https://www.w3schools.com/w3css/img_avatar3.png" />
+                        <article>
+                            <name><i class="fas fa-user fa-fw"></i>Jane Doe</name>
+                            <address><i class="fas fa-home fa-lg"></i>8 Mile Road</address>
+                            <phone><i class="fas fa-phone fa-fw"></i>+47 123 45 678</phone>
+                            <email><i class="fas fa-envelope fa-fw"></i>jane.doe@web2net.no</email>
+                        </article>
+
+                        <!--Card Overlay-->
+                        <div class="az-card-overlay">
+                            <div class="az-card-overlay-card az-display-middle">
+                                <article>
+                                    <a href="http://www.vg.no" target="_blank"><h1 class="az-text-center">Klikk</h1></a>
+                                </article>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="az-row az-margin-t-7 az-margin-b-28">
+                <div class="az-col xs-12 sm-6">
+
+                    <!--Card-->
+                    <div class="az-card">
+                        <header>
+                            <h1>Header 1</h1>
+                        </header>
+                        <article style="height: 200px;">
+                            <name>Simon</name>
+                            <p>The boss of all bosses</p>
+                            <p>News <span class="az-badge az-bg-harley-davidson-orange">4</span></p>
+                            <rating>
+                                <i class="fas fa-star az-orange"></i>
+                                <i class="fas fa-star az-orange"></i>
+                                <i class="fas fa-star az-orange"></i>
+                                <i class="fas fa-star az-orange"></i>
+                                <i class="fas fa-star"></i>
+                            </rating>
+                        </article>
+                        <footer>
+                            <h1>Footer</h1>
+                        </footer>
+                    </div>
+
+                </div>
+                <div class="az-col xs-12 sm-6 az-xs-margin-t-7 az-sm-margin-t-0">
+
+                    <!--Card-->
+                    <div class="az-card">
+                        <header>
+                            <h1>Header 1</h1>
+                        </header>
+                        <article style="height: 200px;">
+                            <name>Simon</name>
+                            <p>The boss of all bosses</p>
+                            <p>News <span class="az-badge az-bg-harley-davidson-orange">4</span></p>
+                            <rating>
+                                <i class="fas fa-star az-orange"></i>
+                                <i class="fas fa-star az-orange"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </rating>
+                        </article>
+                        <footer>
+                            <h1>Footer</h1>
+                        </footer>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>
+
+
+
+
+

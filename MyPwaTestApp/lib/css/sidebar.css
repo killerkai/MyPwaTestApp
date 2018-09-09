@@ -1,0 +1,30 @@
+﻿
+.az-sidebar-menu
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .az-sidebar-menu > li
+    {
+        width: 100%;
+        cursor: pointer;
+    }
+
+        .az-sidebar-menu > li > a
+        {
+            display: block;
+        }
+
+.az-sidebar-filter
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .az-sidebar-filter > li
+    {
+        width: 100%;
+    }

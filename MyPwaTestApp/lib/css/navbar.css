@@ -1,0 +1,130 @@
+﻿
+.az-navbar-sticky
+{
+    position: fixed;
+    z-index: 5000;
+}
+
+/* Navbar --------*/
+.az-navbar
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+    /* Navbar Top*/
+    .az-navbar > .az-navbar-top-content
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-button
+        {
+            display: none;
+            float: right;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-branding
+        {
+            display: none;
+        }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-menu
+        {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .az-navbar > .az-navbar-top-content > .az-navbar-menu > li
+            {
+                float: left;
+                cursor: pointer;
+            }
+
+                .az-navbar > .az-navbar-top-content > .az-navbar-menu > li > a
+                {
+                    display: block;
+                }
+
+    /* Navbar Bottom*/
+    .az-navbar.az-navbar-bottom
+    {
+        display: none;
+        bottom: 0;
+    }
+
+    .az-navbar > .az-navbar-bottom-content
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+
+        .az-navbar > .az-navbar-bottom-content > .az-navbar-menu
+        {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .az-navbar > .az-navbar-bottom-content > .az-navbar-menu > li
+            {
+                float: left;
+                cursor: pointer;
+            }
+
+                .az-navbar > .az-navbar-bottom-content > .az-navbar-menu > li > a
+                {
+                    display: block;
+                }
+
+@media (max-width: 576px)
+{
+    /* Navbar Top*/
+    .az-navbar.az-navbar-top
+    {
+        top: 0 !important;
+        height: auto !important;
+        background-color: transparent !important;
+    }
+
+    .az-navbar > .az-navbar-top-content
+    {
+        margin-top: 0 !important;
+    }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-button
+        {
+            display: block;
+        }
+
+        .az-navbar > .az-navbar-top-content > .az-navbar-menu
+        {
+            display: none;
+        }
+
+        .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu
+        {
+            display: block;
+            width: 100%;
+        }
+
+            .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu > li
+            {
+                width: 100%;
+            }
+
+            .az-navbar > .az-navbar-top-content.mobile > .az-navbar-menu.az-right
+            {
+                float: left !important;
+            }
+
+    /* Navbar Bottom*/
+    .az-navbar.az-navbar-bottom
+    {
+        display: block !important;
+    }
+}

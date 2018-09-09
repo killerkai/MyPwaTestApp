@@ -1,0 +1,108 @@
+﻿
+<!DOCTYPE html>
+<html lang="no">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/az-1.0.0.min.css" />
+    <link rel="stylesheet" href="/lib/templates/standard.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/fontawesome-all.css" />
+    <link rel="stylesheet" href="/lib/jqueryui/jquery-ui.min.css" />
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/lib/js/jquery.easing.min.js"></script>
+    <script src="/lib/js/jquery.matchHeight.js"></script>
+    <script src="/lib/js/moment-with-langs.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/jqueryui/jquery_ui_langs.js"></script>
+    <script src="/lib/numeral/numeral.min.js"></script>
+    <script src="/lib/numeral/locales.min.js"></script>
+    <script src="/lib/templates/functionlib.js"></script>
+    <script src="/lib/js/az-1.0.0.min.js"></script>
+    <script>
+
+        $(document).ready(function ()
+        {
+            initializePage(
+                {
+                    formStyle: true
+                }, function ()
+                {
+                    $(".az-col").css({ "outline": "1px solid #28a745", "text-align": "center", "padding-top": "30px" });
+                    $(".az-col").each(function (i)
+                    {
+                        $(this).html($(this).attr("class") + '<p style="color: red; margin: 10px">' + (Number(i) + 1) + '</p>');
+                    });
+                    hideCoverSpin();
+                });
+        });
+
+            // xs - (0 - 576)
+            // sm - (577 - 767)
+            // md - (768 - 991)
+            // lg - (992 - 1199)
+            // xl - (1200 - )
+
+    </script>
+</head>
+
+<body>
+
+    <form id="frmReg">
+        <div class="az-container">
+
+            <div class="az-row az-margin-t-56">
+
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+                <div class="az-col xs-12 sm-1"></div>
+
+            </div>
+            <div class="az-row az-margin-t-56">
+
+                <div class="az-col xs-12 sm-3"></div>
+                <div class="az-col xs-12 sm-3"></div>
+                <div class="az-col xs-12 sm-3"></div>
+                <div class="az-col xs-12 sm-3"></div>
+
+            </div>
+            <div class="az-row az-margin-t-56">
+
+                <div class="az-col xs-12 sm-6"></div>
+                <div class="az-col xs-12 sm-6"></div>
+
+            </div>
+            <div class="az-row az-margin-t-56">
+
+                <div class="az-col xs-12 sm-4 sm-offset-5"></div>
+                <div class="az-col xs-12 sm-3 sm-offset-3"></div>
+
+            </div>
+            <div class="az-row az-margin-t-56">
+
+                <div class="az-col xs-12 sm-6 sm-push-6"></div>
+                <div class="az-col xs-12 sm-6 sm-pull-6"></div>
+
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>

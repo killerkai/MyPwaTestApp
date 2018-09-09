@@ -1,0 +1,579 @@
+﻿
+.az-form-group
+{
+    position: relative;
+    margin: 7px;
+}
+
+    .az-form-group .az-input-group
+    {
+        display: table;
+    }
+
+    .az-form-group .az-input-group-addon
+    {
+        display: table-cell;
+        width: 1%;
+        padding: 0 9px 0 9px;
+        vertical-align: middle;
+        line-height: 1;
+        text-align: center;
+    }
+
+        .az-form-group .az-input-group-addon.xs
+        {
+            padding: 0 8px 0 8px;
+        }
+        
+        .az-form-group .az-input-group-addon.sm
+        {
+            padding: 0 10px 0 10px;
+        }
+
+        .az-form-group .az-input-group-addon.md
+        {
+            padding: 0 11px 0 11px;
+        }
+
+
+/* Input Standard */
+.az-form-group .az-input
+{
+    width: 100%;
+    height: 30px;
+    padding: 0 4px 0 4px;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-box-shadow ease-in-out .15s;
+    -o-transition: box-shadow ease-in-out .15s;
+    transition: box-shadow ease-in-out .15s;
+}
+
+    .az-form-group .az-input.xs
+    {
+        height: 25px;
+        padding: 0 3px 0 3px;
+    }
+
+    .az-form-group .az-input.sm
+    {
+        height: 35px;
+        padding: 0 5px 0 5px;
+    }
+
+    .az-form-group .az-input.md
+    {
+        height: 40px;
+        padding: 0 6px 0 6px;
+    }
+
+    .az-form-group .az-input:focus
+    {
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    }
+
+.az-form-group .az-label
+{
+    opacity: 0.7;
+}
+
+.az-form-group .az-textarea
+{
+    width: 100%;
+    padding: 0 5px 0 4px;
+    line-height: 1.50;
+    box-sizing: border-box;
+    resize: none;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+    .az-form-group .az-textarea.xs
+    {
+        padding: 0 4px 0 3px;
+        line-height: 1.25;
+    }
+
+    .az-form-group .az-textarea.sm
+    {
+        padding: 0 6px 0 5px;
+        line-height: 1.60;
+    }
+
+    .az-form-group .az-textarea.md
+    {
+        padding: 0 7px 0 6px;
+        line-height: 1.70;
+    }
+
+    .az-form-group .az-textarea:focus
+    {
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    }
+
+.az-form-group .az-select
+{
+    width: 100%;
+    height: 30px;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+    .az-form-group .az-select.xs
+    {
+        height: 25px;
+    }
+
+    .az-form-group .az-select.sm
+    {
+        height: 35px;
+    }
+
+    .az-form-group .az-select.md
+    {
+        height: 40px;
+    }
+
+    .az-form-group .az-select:focus
+    {
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    }
+
+.az-form-group .az-checkbox, .az-form-group .az-radio
+{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+    .az-form-group .az-checkbox.xs, .az-form-group .az-radio.xs
+    {
+        width: 15px;
+        height: 15px;
+        top: 3px;
+    }
+
+    .az-form-group .az-checkbox.sm, .az-form-group .az-radio.sm
+    {
+        width: 25px;
+        height: 25px;
+        top: 7px;
+    }
+
+    .az-form-group .az-checkbox.md, .az-form-group .az-radio.md
+    {
+        width: 30px;
+        height: 30px;
+        top: 8px;
+    }
+
+    .az-form-group .az-checkbox:focus, .az-form-group .az-radio:focus
+    {
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    }
+
+/* Buttons */
+.az-form-group .az-button
+{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    overflow: hidden;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .az-form-group .az-button.xs
+    {
+        padding: 5.5px;
+    }
+
+    .az-form-group .az-button.sm
+    {
+        padding: 8.5px;
+    }
+
+    .az-form-group .az-button.md
+    {
+        padding: 10.5px;
+    }
+
+    .az-form-group .az-button.az-button-block
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.az-form-group .az-button-disabled
+{
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    cursor: default;
+}
+
+/* Input Animated */
+.az-form-group .az-input-group-addon-animated
+{
+    display: table-cell;
+    width: 1%;
+    padding: 0 9px 0 9px;
+    vertical-align: middle;
+    line-height: 1;
+    text-align: center;
+}
+
+    .az-form-group .az-input-group-addon-animated.xs
+    {
+        padding: 0 8px 0 8px;
+    }
+
+    .az-form-group .az-input-group-addon-animated.sm
+    {
+        padding: 0 10px 0 10px;
+    }
+
+    .az-form-group .az-input-group-addon-animated.md
+    {
+        padding: 0 11px 0 11px;
+    }
+
+.az-form-group .az-input-animated
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 27px;
+    border: 0;
+}
+
+    .az-form-group .az-input-animated.xs
+    {
+        height: 22px;
+    }
+
+    .az-form-group .az-input-animated.sm
+    {
+        height: 32px;
+    }
+
+    .az-form-group .az-input-animated.md
+    {
+        height: 37px;
+    }
+
+    .az-form-group .az-input-animated:focus
+    {
+        outline: 0;
+        -webkit-animation: input-focus 0.2s 1 forwards;
+        -moz-animation: input-focus 0.2s 1 forwards;
+        -o-animation: input-focus 0.2s 1 forwards;
+        animation: input-focus 0.2s 1 forwards;
+    }
+
+        .az-form-group .az-input-animated:focus ~ .az-label-animated
+        {
+            top: -15px;
+            opacity: 1;
+        }
+
+.az-form-group .az-label-animated
+{
+    position: absolute;
+    top: 8px;
+    opacity: 0.5;
+    transition: 0.2s ease top;
+}
+
+    .az-form-group .az-label-animated.xs
+    {
+        top: 5px;
+    }
+
+    .az-form-group .az-label-animated.sm
+    {
+        top: 10px;
+    }
+
+    .az-form-group .az-label-animated.md
+    {
+        top: 12px;
+    }
+
+
+/* Alert */
+.az-form-group .az-alert
+{
+    padding: 6px;
+    text-align: center;
+}
+
+    .az-form-group .az-alert.xs
+    {
+        padding: 5px;
+    }
+
+    .az-form-group .az-alert.sm
+    {
+        padding: 7.5px;
+    }
+
+    .az-form-group .az-alert.md
+    {
+        padding: 9px;
+    }
+
+
+/* Modal */
+#az-modal-background
+{
+    display: none;
+    position: fixed;
+    z-index: 50000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    overflow: auto;
+}
+
+#az-modal
+{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    width: 450px;
+    height: auto;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    -moz-animation-name: animatetop;
+    -moz-animation-duration: 0.4s;
+    -o-animation-name: animatetop;
+    -o-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+#az-modal > .az-modal-card > header
+{
+    padding: 7px;
+}
+
+    #az-modal > .az-modal-card > header:before
+    {
+        float: right;
+        margin-right: 7px;
+        margin-top: 3px;
+        content: '\0058';
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+#az-modal > .az-modal-card > article
+{
+    min-height: 150px;
+}
+
+    #az-modal > .az-modal-card > article > *
+    {
+        padding: 7px;
+    }
+
+
+/* Dropdown */
+.az-dropdown-default-layout
+{
+    min-width: 160px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+    .az-dropdown-default-layout li
+    {
+        float: none !important;
+        padding: 5px;
+    }
+
+        .az-dropdown-default-layout li a
+        {
+            margin: 0 !important;
+            line-height: 30px !important;
+        }
+
+.az-dropdown-click, .az-dropdown-hover
+{
+    position: relative;
+}
+
+    .az-dropdown-hover:hover .az-dropdown-content
+    {
+        display: block;
+    }
+
+.az-dropdown-content
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    cursor: auto;
+}
+
+.az-dropdown-show
+{
+    display: block !important;
+}
+
+
+/* Diverse */
+.az-badge
+{
+    display: inline-block;
+    padding: 0 8px 0 8px;
+    text-align: center;
+    border-radius: 50% !important;
+}
+
+
+/* Animations Keyframes --------*/
+/* .az-input-animated */
+@-webkit-keyframes input-focus
+{
+    0%
+    {
+        width: 0;
+    }
+
+    100%
+    {
+        width: 100%;
+    }
+}
+
+@-moz-keyframes input-focus
+{
+    0%
+    {
+        width: 0;
+    }
+
+    100%
+    {
+        width: 100%;
+    }
+}
+
+@-o-keyframes input-focus
+{
+    0%
+    {
+        width: 0;
+    }
+
+    100%
+    {
+        width: 100%;
+    }
+}
+
+@keyframes input-focus
+{
+    0%
+    {
+        width: 0;
+    }
+
+    100%
+    {
+        width: 100%;
+    }
+}
+
+/* #az-modal */
+@-webkit-keyframes animatetop
+{
+    from
+    {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to
+    {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes animatetop
+{
+    from
+    {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to
+    {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes animatetop
+{
+    from
+    {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to
+    {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes animatetop
+{
+    from
+    {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to
+    {
+        top: 0;
+        opacity: 1;
+    }
+}

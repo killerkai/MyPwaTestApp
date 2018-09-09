@@ -1,0 +1,125 @@
+﻿
+<!DOCTYPE html>
+<html lang="no">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/az-1.0.0.min.css" />
+    <link rel="stylesheet" href="/lib/templates/standard.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/fontawesome-all.css" />
+    <link rel="stylesheet" href="/lib/jqueryui/jquery-ui.min.css" />
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/lib/js/jquery.easing.min.js"></script>
+    <script src="/lib/js/jquery.matchHeight.js"></script>
+    <script src="/lib/js/moment-with-langs.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/jqueryui/jquery_ui_langs.js"></script>
+    <script src="/lib/numeral/numeral.min.js"></script>
+    <script src="/lib/numeral/locales.min.js"></script>
+    <script src="/lib/templates/functionlib.js"></script>
+    <script src="/lib/js/az-1.0.0.min.js"></script>
+    <script>
+
+        $(document).ready(function ()
+        {
+            $("#az-navbar-button").off().on("click", function (e) { openCloseMobileNavbar() });
+
+            var _$NavbarMenu = $(".az-page-scroll");
+            _$NavbarMenu.off().on("click", "li a", function (e)
+            {
+                var _$Anchor = $(this);
+                $('html, body').stop().animate(
+                    {
+                        scrollTop: $(_$Anchor.attr('href')).offset().top
+                    }, 1500, 'easeInOutExpo');
+                $(".az-navbar").removeClass("mobile");
+            });
+
+            $("#az-menu-button").off().on("click", function (e)
+            {
+                $(".az-navbar").css({ "width": "40px" });
+
+            });
+
+
+        });
+
+        function openCloseMobileNavbar()
+        {
+            var _$Navbar = $(".az-navbar");
+            if (_$Navbar.hasClass("mobile"))
+            {
+                _$Navbar.removeClass("mobile");
+            }
+            else
+            {
+                _$Navbar.addClass("mobile");
+            }
+        }
+
+    </script>
+</head>
+<body id="page-top">
+
+    <form id="frmReg">
+
+        <div class="az-navbar az-navbar-sticky">
+
+            <div id="az-navbar-button">&#9776;</div>
+
+            <ul class="az-navbar-menu az-page-scroll">
+                <li><a href="#page-top">Home</a></li>
+                <li><a href="#link1">Link 1</a></li>
+                <li><a href="#link2">Link 2</a></li>
+                <li><a href="#link3">Link 3</a></li>
+                <li><a href="#link4">Link 4</a></li>
+                <li><a href="#link5">Link 5</a></li>
+            </ul>
+
+            <div id="az-menu-button">&#9776;</div>
+
+        </div>
+
+        <div class="main">
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+            <div class="az-container section" id="link3">
+
+                <h1>dfhdfhdfh</h1>
+
+            </div>
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+            <div class="az-container section" id="link4">
+
+                <h1>sdgsdgsdg</h1>
+
+            </div>
+
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+        </div>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+﻿{
+  "ObjElements": {
+    "en-US": [
+      { "labelUserAdd": [ "id", "text", "New User" ] },
+      { "cmdAddNewUser": [ "id", "text", "Create new user" ] },
+
+      { "labelLanguageId": [ "id", "text", "Language:" ] },
+      { "labelPhoneNo": [ "id", "text", "Phone:" ] },
+      { "labelMobilePhoneNo": [ "id", "text", "Mobile:" ] },
+      { "labelEmail": [ "id", "text", "Email:" ] },
+      { "labelWeb": [ "id", "text", "Web:" ] },
+      { "labelAddressInvoice": [ "id", "text", "Billing address:" ] },
+      { "labelPostalCodeInvoice": [ "id", "text", "Zip/Postal Code:" ] },
+      { "labelCityInvoice": [ "id", "text", "City:" ] },
+      { "labelCountryInvoiceId": [ "id", "text", "Country:" ] },
+      { "labelAddressVisit": [ "id", "text", "Visit address:" ] },
+      { "labelPostalCodeVisit": [ "id", "text", "Zip/Postal Code:" ] },
+      { "labelCityVisit": [ "id", "text", "City:" ] },
+      { "labelCountryVisitId": [ "id", "text", "Country:" ] }
+    ],
+    "nb-NO": [
+      { "labelUserAdd": [ "id", "text", "Ny Bruker" ] },
+      { "cmdAddNewUser": [ "id", "text", "Opprett ny bruker" ] },
+
+      { "labelLanguageId": [ "id", "text", "Språk:" ] },
+      { "labelTimeZoneId": [ "id", "text", "Tidssone:" ] },
+      { "labelPhoneNo": [ "id", "text", "Telefon:" ] },
+      { "labelMobilePhoneNo": [ "id", "text", "Mobil:" ] },
+      { "labelEmail": [ "id", "text", "E-post:" ] },
+      { "labelWeb": [ "id", "text", "Hjemmesider:" ] },
+      { "labelAddressInvoice": [ "id", "text", "Fakturaaddresse:" ] },
+      { "labelPostalCodeInvoice": [ "id", "text", "Postnummer:" ] },
+      { "labelCityInvoice": [ "id", "text", "Sted:" ] },
+      { "labelCountryInvoiceId": [ "id", "text", "Land:" ] },
+      { "labelAddressVisit": [ "id", "text", "Besøksaddresse:" ] },
+      { "labelPostalCodeVisit": [ "id", "text", "Postnummer:" ] },
+      { "labelCityVisit": [ "id", "text", "Sted:" ] },
+      { "labelCountryVisitId": [ "id", "text", "Land:" ] }
+    ]
+  },
+  "SingleElements": {
+    "en-US": {
+      "labelPageTitle": "Users | Trøndelag Droneservice",
+
+      "CountryId": "Select a Country",
+      "FirstNameSubmitError": "First name is empty or contains invalid characters.",
+      "LastNameSubmitError": "Last name is empty or contains invalid characters.",
+      "PhoneNoSubmitError": "Phone contains invalid characters.",
+      "MobilePhoneNoSubmitError": "Mobile contains invalid characters.",
+      "EmailSubmitError": "Email is empty or contains invalid characters.",
+      "AddressSubmitError": "Address contains invalid characters.",
+      "PostalCodeSubmitError": "Zip/Postal code contains invalid characters.",
+      "CitySubmitError": "City contains invalid characters.",
+      "CountryIdSubmitError": "Country contains invalid characters.",
+      "BirthdateSubmitError": "Birth date contains invalid characters.",
+      "GenderSubmitError": "Gender contains invalid characters.",
+      "UsernameSubmitError": "Username is empty or contains invalid characters. (Min. 6 char.)",
+      "PasswordSubmitError": "Password is empty or contains invalid characters. (Min. 6 char.)",
+      "EmailUsernameExists": "Email or Username already exists."
+    },
+    "nb-NO": {
+      "labelPageTitle": "Brukere | Trøndelag Droneservice",
+
+      "CountryId": "Velg et Land",
+      "FirstNameSubmitError": "Fornavn er tomt eller inneholder ugyldige tegn.",
+      "LastNameSubmitError": "Etternavn er tomt eller inneholder ugyldige tegn.",
+      "PhoneNoSubmitError": "Telefon inneholder ugyldige tegn.",
+      "MobilePhoneNoSubmitError": "Mobil innholder ugyldige tegn.",
+      "EmailSubmitError": "Email er tomt eller inneholder ugyldige tegn.",
+      "AddressSubmitError": "Adresse inneholder ugyldige tegn.",
+      "PostalCodeSubmitError": "Postnummer inneholder ugyldige tegn.",
+      "CitySubmitError": "By inneholder ugyldige tegn.",
+      "CountryIdSubmitError": "Land inneholder ugyldige tegn.",
+      "BirthdateSubmitError": "Fødselsdag inneholder ugyldige tegn.",
+      "GenderSubmitError": "Kjønn inneholder ugyldige tegn.",
+      "UsernameSubmitError": "Brukernavn er tomt eller inneholder ugyldige tegn. (Minst 6 tegn)",
+      "PasswordSubmitError": "Passord er tomt eller inneholder ugyldige tegn. (Minst 6 tegn)",
+      "EmailUsernameExists": "Email eller brukernavn finnes allerede."
+    }
+  }
+}

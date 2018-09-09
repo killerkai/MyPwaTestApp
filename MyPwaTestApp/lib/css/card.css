@@ -1,0 +1,53 @@
+﻿
+.az-card
+{
+    display: block;
+    position: relative;
+    margin: 0 7px 0 7px;
+}
+
+    .az-card > header
+    {
+        padding: 7px;
+    }
+
+    .az-card > article
+    {
+        padding: 7px;
+    }
+
+    .az-card > footer
+    {
+        padding: 7px;
+    }
+
+    /* Overlay */
+    .az-card:hover > .az-card-overlay
+    {
+        opacity: 1;
+    }
+
+    .az-card > .az-card-overlay
+    {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+        .az-card > .az-card-overlay > .az-card-overlay-card
+        {
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+            .az-card > .az-card-overlay > .az-card-overlay-card > article
+            {
+                padding: 7px;
+            }

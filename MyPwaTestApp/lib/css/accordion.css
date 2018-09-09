@@ -1,0 +1,42 @@
+﻿.az-accordion-card
+{
+    display: block;
+    position: relative;
+    overflow: visible;
+    white-space: normal;
+}
+
+.az-accordion-card > header
+{
+    padding: 7px;
+	cursor: pointer;
+}
+
+	.az-accordion-card > header:before
+	{
+		float: right;
+		margin-right: 7px;
+		margin-top: 4px;
+		content: '\002B';
+		font-weight: bold;
+	}
+
+	.az-accordion-card > header.accordion-active:before
+	{
+		content: "\2212";
+	}
+
+.az-accordion-card > article
+{
+	display: none;
+    padding: 7px;
+}
+
+@media (max-width: 576px)
+{
+    .az-accordion
+    {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}

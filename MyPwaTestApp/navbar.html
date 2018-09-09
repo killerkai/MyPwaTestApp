@@ -1,0 +1,100 @@
+﻿
+<!DOCTYPE html>
+<html lang="no">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/az-1.0.0.min.css" />
+    <link rel="stylesheet" href="/lib/templates/standard.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/fontawesome-all.css" />
+    <link rel="stylesheet" href="/lib/jqueryui/jquery-ui.min.css" />
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/lib/js/jquery.easing.min.js"></script>
+    <script src="/lib/js/jquery.matchHeight.js"></script>
+    <script src="/lib/js/moment-with-langs.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/jqueryui/jquery_ui_langs.js"></script>
+    <script src="/lib/numeral/numeral.min.js"></script>
+    <script src="/lib/numeral/locales.min.js"></script>
+    <script src="/lib/templates/functionlib.js"></script>
+    <script src="/lib/js/az-1.0.0.min.js"></script>
+    <script>
+
+        $(document).ready(function ()
+        {
+            initializePage(
+                {
+                    formStyle: true
+                }, function ()
+                {
+                    hideCoverSpin();
+                });
+        });
+
+    </script>
+</head>
+<body>
+
+    <form id="frmReg">
+
+        <div class="az-navbar az-navbar-top az-navbar-sticky">
+            <div class="az-navbar-top-content">
+
+                <button type="button" class="az-navbar-button">&#9776;</button>
+                <img class="az-navbar-branding" alt="" src="web2net/web2net_logo_white.png" />
+
+                <ul class="az-navbar-menu az-left">
+                    <li><a href="#section-1">Hjem</a></li>
+                    <li><a href="#section-2">Section 1</a></li>
+                    <li><a href="#section-3">Section 2</a></li>
+                    <li><a href="http://web2net.no" target="_blank">Annen Side</a></li>
+                </ul>
+
+                <ul class="az-navbar-menu az-right">
+                    <li><a href="#"><i class="fab fa-facebook-square fa-fw"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter-square fa-fw"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-square fa-fw"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="az-navbar az-navbar-bottom az-navbar-sticky">
+            <div class="az-navbar-bottom-content">
+                <ul class="az-navbar-menu">
+                    <li><a data-url="1" href="#"><i class="fas fa-search fa-fw"></i><p>Søk</p></a></li>
+                    <li><a data-url="2" href="#"><i class="fas fa-suitcase fa-fw"></i><p>Turer</p></a></li>
+                    <li><a data-url="3" href="#"><i class="fas fa-inbox fa-fw"></i><p>Innboks</p></a></li>
+                    <li><a data-url="4" href="#"><i class="fas fa-user fa-fw"></i><p>Profil</p></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="section-1" class="az-section az-bg-white" style="height: 1200px;">
+            <div class="az-container az-padding-t-56">
+                <h1>Hjem</h1>
+            </div>
+        </div>
+
+        <div id="section-2" class="az-section az-bg-black" style="height: 1200px;">
+            <div class="az-container">
+                <h1>Section 1</h1>
+            </div>
+        </div>
+
+        <div id="section-3" class="az-section az-bg-white" style="height: 1200px;">
+            <div class="az-container">
+                <h1>Section 2</h1>
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+﻿{
+  "LanguageId": {
+    "label": "mandatory",
+    "data-attr": "val",
+    "class": "validate validate-numeric",
+    "datatype": "int",
+    "tabindex": 4
+  },
+  "TimeZoneId": {
+    "label": "mandatory",
+    "data-attr": "val",
+    "class": "validate validate-numeric",
+    "datatype": "int",
+    "tabindex": 5
+  },
+  "PhoneNo": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 8
+  },
+  "MobilePhoneNo": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 9
+  },
+  "Email": {
+    "label": "mandatory",
+    "data-attr": "val",
+    "maxlength": "100",
+    "class": "validate validate-email forcelowercase",
+    "datatype": "string",
+    "tabindex": 10
+  },
+  "Web": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "255",
+    "class": "validate validate-web",
+    "datatype": "string",
+    "tabindex": 11
+  },
+  "AddressInvoice": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 12
+  },
+  "PostalCodeInvoice": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 13
+  },
+  "CityInvoice": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 14
+  },
+  "CountryInvoiceId": {
+    "label": "optional",
+    "data-attr": "val",
+    "class": "validate validate-numeric",
+    "datatype": "int",
+    "tabindex": 15
+  },
+  "AddressVisit": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 16
+  },
+  "PostalCodeVisit": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 17
+  },
+  "CityVisit": {
+    "label": "optional",
+    "data-attr": "val",
+    "maxlength": "50",
+    "class": "validate validate-alpha",
+    "datatype": "string",
+    "tabindex": 18
+  },
+  "CountryVisitId": {
+    "label": "optional",
+    "data-attr": "val",
+    "class": "validate validate-numeric",
+    "datatype": "int",
+    "tabindex": 19
+  }
+}

@@ -1,0 +1,1847 @@
+﻿
+/* Font Color */
+.az-fire-engine
+{
+    color: #E81123 !important;
+}
+
+.az-harley-davidson-orange
+{
+    color: #D83B01 !important;
+}
+
+.az-selective-yellow
+{
+    color: #FFB900 !important;
+}
+
+.az-green
+{
+    color: #107C10 !important;
+}
+
+.az-pine-green
+{
+    color: #008272 !important;
+}
+
+.az-navy-blue
+{
+    color: #0078D7 !important;
+}
+
+.az-kelly-green
+{
+    color: #5DC21E !important;
+}
+
+.az-navy
+{
+    color: #001F3F !important;
+}
+
+.az-blue
+{
+    color: #0074D9 !important;
+}
+
+.az-aqua
+{
+    color: #7FDBFF !important;
+}
+
+.az-olive
+{
+    color: #3D9970 !important;
+}
+
+.az-lime
+{
+    color: #01FF70 !important;
+}
+
+.az-orange
+{
+    color: #FF851B !important;
+}
+
+.az-red
+{
+    color: #FF4136 !important;
+}
+
+.az-fuchsia
+{
+    color: #F012BE !important;
+}
+
+.az-purple
+{
+    color: #B10DC9 !important;
+}
+
+.az-maroon
+{
+    color: #85144B !important;
+}
+
+.az-white
+{
+    color: #FFFFFF !important;
+}
+
+.az-silver
+{
+    color: #DDDDDD !important;
+}
+
+.az-gray
+{
+    color: #AAAAAA !important;
+}
+
+.az-black
+{
+    color: #000000 !important;
+}
+
+.az-teal
+{
+    color: #009688 !important;
+}
+
+.az-blue-grey
+{
+    color: #607d8b !important;
+}
+
+
+/* Backgrounds */
+.az-bg-fire-engine
+{
+	background-color: #E81123 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-harley-davidson-orange
+{
+	background-color: #D83B01 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-selective-yellow
+{
+	background-color: #FFB900 !important;
+	color: #000000 !important;
+}
+
+.az-bg-green
+{
+	background-color: #107C10 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-pine-green
+{
+	background-color: #008272 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-navy-blue
+{
+	background-color: #0078D7 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-kelly-green
+{
+	background-color: #5DC21E !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-navy
+{
+	background-color: #001F3F !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-blue
+{
+	background-color: #0074D9 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-aqua
+{
+	background-color: #7FDBFF !important;
+	color: #000000 !important;
+}
+
+.az-bg-olive
+{
+	background-color: #3D9970 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-lime
+{
+	background-color: #01FF70 !important;
+	color: #000000 !important;
+}
+
+.az-bg-orange
+{
+	background-color: #FF851B !important;
+	color: #000000 !important;
+}
+
+.az-bg-red
+{
+	background-color: #FF4136 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-fuchsia
+{
+	background-color: #F012BE !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-purple
+{
+	background-color: #B10DC9 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-maroon
+{
+	background-color: #85144B !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-white
+{
+	background-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.az-bg-silver
+{
+    background-color: #DDDDDD !important;
+    color: #000000 !important;
+}
+
+.az-bg-gray
+{
+	background-color: #AAAAAA !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-black
+{
+	background-color: #000000 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-teal
+{
+	background-color: #009688 !important;
+	color: #FFFFFF !important;
+}
+
+.az-bg-blue-grey
+{
+	background-color: #607d8b !important;
+	color: #FFFFFF !important;
+}
+
+
+/* Hover Background */
+.az-bg-hover-fire-engine:hover
+{
+	background-color: #E81123;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-harley-davidson-orange:hover
+{
+	background-color: #D83B01;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-selective-yellow:hover
+{
+	background-color: #FFB900;
+	color: #000000;
+}
+
+.az-bg-hover-green:hover
+{
+	background-color: #107C10;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-pine-green:hover
+{
+	background-color: #008272;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-navy-blue:hover
+{
+	background-color: #0078D7;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-kelly-green:hover
+{
+	background-color: #5DC21E;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-navy:hover
+{
+	background-color: #001F3F;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-blue:hover
+{
+	background-color: #0074D9;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-aqua:hover
+{
+	background-color: #7FDBFF;
+	color: #000000;
+}
+
+.az-bg-hover-olive:hover
+{
+	background-color: #3D9970;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-lime:hover
+{
+	background-color: #01FF70;
+	color: #000000;
+}
+
+.az-bg-hover-orange:hover
+{
+	background-color: #FF851B;
+	color: #000000;
+}
+
+.az-bg-hover-red:hover
+{
+	background-color: #FF4136;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-fuchsia:hover
+{
+	background-color: #F012BE;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-purple:hover
+{
+	background-color: #B10DC9;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-maroon:hover
+{
+	background-color: #85144B;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-white:hover
+{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.az-bg-hover-gray:hover
+{
+	background-color: #AAAAAA;
+	color: #000000;
+}
+
+.az-bg-hover-silver:hover
+{
+	background-color: #DDDDDD;
+	color: #000000;
+}
+
+.az-bg-hover-black:hover
+{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-teal:hover
+{
+	background-color: #009688;
+	color: #FFFFFF;
+}
+
+.az-bg-hover-blue-grey:hover
+{
+	background-color: #607d8b;
+	color: #FFFFFF;
+}
+
+
+/* Border 1 */
+.az-border-1-fire-engine
+{
+    border: 1px solid #E81123;
+}
+
+.az-border-1-harley-davidson-orange
+{
+    border: 1px solid #D83B01;
+}
+
+.az-border-1-selective-yellow
+{
+    border: 1px solid #FFB900;
+}
+
+.az-border-1-green
+{
+    border: 1px solid #107C10;
+}
+
+.az-border-1-pine-green
+{
+    border: 1px solid #008272;
+}
+
+.az-border-1-navy-blue
+{
+    border: 1px solid #0078D7;
+}
+
+.az-border-1-kelly-green
+{
+    border: 1px solid #5DC21E;
+}
+
+.az-border-1-navy
+{
+    border: 1px solid #001F3F;
+}
+
+.az-border-1-blue
+{
+    border: 1px solid #0074D9;
+}
+
+.az-border-1-aqua
+{
+    border: 1px solid #7FDBFF;
+}
+
+.az-border-1-olive
+{
+    border: 1px solid #3D9970;
+}
+
+.az-border-1-lime
+{
+    border: 1px solid #01FF70;
+}
+
+.az-border-1-orange
+{
+    border: 1px solid #FF851B;
+}
+
+.az-border-1-red
+{
+    border: 1px solid #FF4136;
+}
+
+.az-border-1-fuchsia
+{
+    border: 1px solid #F012BE;
+}
+
+.az-border-1-purple
+{
+    border: 1px solid #B10DC9;
+}
+
+.az-border-1-maroon
+{
+    border: 1px solid #85144B;
+}
+
+.az-border-1-white
+{
+    border: 1px solid #FFFFFF;
+}
+
+.az-border-1-gray
+{
+    border: 1px solid #AAAAAA;
+}
+
+.az-border-1-silver
+{
+    border: 1px solid #DDDDDD;
+}
+
+.az-border-1-black
+{
+    border: 1px solid #000000;
+}
+
+.az-border-1-teal
+{
+    border: 1px solid #009688;
+}
+
+.az-border-1-blue-grey
+{
+    border: 1px solid #607d8b;
+}
+
+
+/* Border Left 1 */
+.az-border-left-1-fire-engine
+{
+    border-left: 1px solid #E81123;
+}
+
+.az-border-left-1-harley-davidson-orange
+{
+    border-left: 1px solid #D83B01;
+}
+
+.az-border-left-1-selective-yellow
+{
+    border-left: 1px solid #FFB900;
+}
+
+.az-border-left-1-green
+{
+    border-left: 1px solid #107C10;
+}
+
+.az-border-left-1-pine-green
+{
+    border-left: 1px solid #008272;
+}
+
+.az-border-left-1-navy-blue
+{
+    border-left: 1px solid #0078D7;
+}
+
+.az-border-left-1-kelly-green
+{
+    border-left: 1px solid #5DC21E;
+}
+
+.az-border-left-1-navy
+{
+    border-left: 1px solid #001F3F;
+}
+
+.az-border-left-1-blue
+{
+    border-left: 1px solid #0074D9;
+}
+
+.az-border-left-1-aqua
+{
+    border-left: 1px solid #7FDBFF;
+}
+
+.az-border-left-1-olive
+{
+    border-left: 1px solid #3D9970;
+}
+
+.az-border-left-1-lime
+{
+    border-left: 1px solid #01FF70;
+}
+
+.az-border-left-1-orange
+{
+    border-left: 1px solid #FF851B;
+}
+
+.az-border-left-1-red
+{
+    border-left: 1px solid #FF4136;
+}
+
+.az-border-left-1-fuchsia
+{
+    border-left: 1px solid #F012BE;
+}
+
+.az-border-left-1-purple
+{
+    border-left: 1px solid #B10DC9;
+}
+
+.az-border-left-1-maroon
+{
+    border-left: 1px solid #85144B;
+}
+
+.az-border-left-1-white
+{
+    border-left: 1px solid #FFFFFF;
+}
+
+.az-border-left-1-gray
+{
+    border-left: 1px solid #AAAAAA;
+}
+
+.az-border-left-1-silver
+{
+    border-left: 1px solid #DDDDDD;
+}
+
+.az-border-left-1-black
+{
+    border-left: 1px solid #000000;
+}
+
+.az-border-left-1-teal
+{
+    border-left: 1px solid #009688;
+}
+
+.az-border-left-1-blue-grey
+{
+    border-left: 1px solid #607d8b;
+}
+
+
+/* Border Top 1 */
+.az-border-top-1-fire-engine
+{
+    border-top: 1px solid #E81123;
+}
+
+.az-border-top-1-harley-davidson-orange
+{
+    border-top: 1px solid #D83B01;
+}
+
+.az-border-top-1-selective-yellow
+{
+    border-top: 1px solid #FFB900;
+}
+
+.az-border-top-1-green
+{
+    border-top: 1px solid #107C10;
+}
+
+.az-border-top-1-pine-green
+{
+    border-top: 1px solid #008272;
+}
+
+.az-border-top-1-navy-blue
+{
+    border-top: 1px solid #0078D7;
+}
+
+.az-border-top-1-kelly-green
+{
+    border-top: 1px solid #5DC21E;
+}
+
+.az-border-top-1-navy
+{
+    border-top: 1px solid #001F3F;
+}
+
+.az-border-top-1-blue
+{
+    border-top: 1px solid #0074D9;
+}
+
+.az-border-top-1-aqua
+{
+    border-top: 1px solid #7FDBFF;
+}
+
+.az-border-top-1-olive
+{
+    border-top: 1px solid #3D9970;
+}
+
+.az-border-top-1-lime
+{
+    border-top: 1px solid #01FF70;
+}
+
+.az-border-top-1-orange
+{
+    border-top: 1px solid #FF851B;
+}
+
+.az-border-top-1-red
+{
+    border-top: 1px solid #FF4136;
+}
+
+.az-border-top-1-fuchsia
+{
+    border-top: 1px solid #F012BE;
+}
+
+.az-border-top-1-purple
+{
+    border-top: 1px solid #B10DC9;
+}
+
+.az-border-top-1-maroon
+{
+    border-top: 1px solid #85144B;
+}
+
+.az-border-top-1-white
+{
+    border-top: 1px solid #FFFFFF;
+}
+
+.az-border-top-1-gray
+{
+    border-top: 1px solid #AAAAAA;
+}
+
+.az-border-top-1-silver
+{
+    border-top: 1px solid #DDDDDD;
+}
+
+.az-border-top-1-black
+{
+    border-top: 1px solid #000000;
+}
+
+.az-border-top-1-teal
+{
+    border-top: 1px solid #009688;
+}
+
+.az-border-top-1-blue-grey
+{
+    border-top: 1px solid #607d8b;
+}
+
+
+/* Border Right 1 */
+.az-border-right-1-fire-engine
+{
+    border-right: 1px solid #E81123;
+}
+
+.az-border-right-1-harley-davidson-orange
+{
+    border-right: 1px solid #D83B01;
+}
+
+.az-border-right-1-selective-yellow
+{
+    border-right: 1px solid #FFB900;
+}
+
+.az-border-right-1-green
+{
+    border-right: 1px solid #107C10;
+}
+
+.az-border-right-1-pine-green
+{
+    border-right: 1px solid #008272;
+}
+
+.az-border-right-1-navy-blue
+{
+    border-right: 1px solid #0078D7;
+}
+
+.az-border-right-1-kelly-green
+{
+    border-right: 1px solid #5DC21E;
+}
+
+.az-border-right-1-navy
+{
+    border-right: 1px solid #001F3F;
+}
+
+.az-border-right-1-blue
+{
+    border-right: 1px solid #0074D9;
+}
+
+.az-border-right-1-aqua
+{
+    border-right: 1px solid #7FDBFF;
+}
+
+.az-border-right-1-olive
+{
+    border-right: 1px solid #3D9970;
+}
+
+.az-border-right-1-lime
+{
+    border-right: 1px solid #01FF70;
+}
+
+.az-border-right-1-orange
+{
+    border-right: 1px solid #FF851B;
+}
+
+.az-border-right-1-red
+{
+    border-right: 1px solid #FF4136;
+}
+
+.az-border-right-1-fuchsia
+{
+    border-right: 1px solid #F012BE;
+}
+
+.az-border-right-1-purple
+{
+    border-right: 1px solid #B10DC9;
+}
+
+.az-border-right-1-maroon
+{
+    border-right: 1px solid #85144B;
+}
+
+.az-border-right-1-white
+{
+    border-right: 1px solid #FFFFFF;
+}
+
+.az-border-right-1-gray
+{
+    border-right: 1px solid #AAAAAA;
+}
+
+.az-border-right-1-silver
+{
+    border-right: 1px solid #DDDDDD;
+}
+
+.az-border-right-1-black
+{
+    border-right: 1px solid #000000;
+}
+
+.az-border-right-1-teal
+{
+    border-right: 1px solid #009688;
+}
+
+.az-border-right-1-blue-grey
+{
+    border-right: 1px solid #607d8b;
+}
+
+
+/* Border Bottom 1 */
+.az-border-bottom-1-fire-engine
+{
+    border-bottom: 1px solid #E81123;
+}
+
+.az-border-bottom-1-harley-davidson-orange
+{
+    border-bottom: 1px solid #D83B01;
+}
+
+.az-border-bottom-1-selective-yellow
+{
+    border-bottom: 1px solid #FFB900;
+}
+
+.az-border-bottom-1-green
+{
+    border-bottom: 1px solid #107C10;
+}
+
+.az-border-bottom-1-pine-green
+{
+    border-bottom: 1px solid #008272;
+}
+
+.az-border-bottom-1-navy-blue
+{
+    border-bottom: 1px solid #0078D7;
+}
+
+.az-border-bottom-1-kelly-green
+{
+    border-bottom: 1px solid #5DC21E;
+}
+
+.az-border-bottom-1-navy
+{
+    border-bottom: 1px solid #001F3F;
+}
+
+.az-border-bottom-1-blue
+{
+    border-bottom: 1px solid #0074D9;
+}
+
+.az-border-bottom-1-aqua
+{
+    border-bottom: 1px solid #7FDBFF;
+}
+
+.az-border-bottom-1-olive
+{
+    border-bottom: 1px solid #3D9970;
+}
+
+.az-border-bottom-1-lime
+{
+    border-bottom: 1px solid #01FF70;
+}
+
+.az-border-bottom-1-orange
+{
+    border-bottom: 1px solid #FF851B;
+}
+
+.az-border-bottom-1-red
+{
+    border-bottom: 1px solid #FF4136;
+}
+
+.az-border-bottom-1-fuchsia
+{
+    border-bottom: 1px solid #F012BE;
+}
+
+.az-border-bottom-1-purple
+{
+    border-bottom: 1px solid #B10DC9;
+}
+
+.az-border-bottom-1-maroon
+{
+    border-bottom: 1px solid #85144B;
+}
+
+.az-border-bottom-1-white
+{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.az-border-bottom-1-gray
+{
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.az-border-bottom-1-silver
+{
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.az-border-bottom-1-black
+{
+    border-bottom: 1px solid #000000;
+}
+
+.az-border-bottom-1-teal
+{
+    border-bottom: 1px solid #009688;
+}
+
+.az-border-bottom-1-blue-grey
+{
+    border-bottom: 1px solid #607d8b;
+}
+
+
+/* Border Hover 1 */
+.az-border-hover-1-fire-engine:hover
+{
+    border: 1px solid #E81123;
+}
+
+.az-border-hover-1-harley-davidson-orange:hover
+{
+    border: 1px solid #D83B01;
+}
+
+.az-border-hover-1-selective-yellow:hover
+{
+    border: 1px solid #FFB900;
+}
+
+.az-border-hover-1-green:hover
+{
+    border: 1px solid #107C10;
+}
+
+.az-border-hover-1-pine-green:hover
+{
+    border: 1px solid #008272;
+}
+
+.az-border-hover-1-navy-blue:hover
+{
+    border: 1px solid #0078D7;
+}
+
+.az-border-hover-1-kelly-green:hover
+{
+    border: 1px solid #5DC21E;
+}
+
+.az-border-hover-1-navy:hover
+{
+    border: 1px solid #001F3F;
+}
+
+.az-border-hover-1-blue:hover
+{
+    border: 1px solid #0074D9;
+}
+
+.az-border-hover-1-aqua:hover
+{
+    border: 1px solid #7FDBFF;
+}
+
+.az-border-hover-1-olive:hover
+{
+    border: 1px solid #3D9970;
+}
+
+.az-border-hover-1-lime:hover
+{
+    border: 1px solid #01FF70;
+}
+
+.az-border-hover-1-orange:hover
+{
+    border: 1px solid #FF851B;
+}
+
+.az-border-hover-1-red:hover
+{
+    border: 1px solid #FF4136;
+}
+
+.az-border-hover-1-fuchsia:hover
+{
+    border: 1px solid #F012BE;
+}
+
+.az-border-hover-1-purple:hover
+{
+    border: 1px solid #B10DC9;
+}
+
+.az-border-hover-1-maroon:hover
+{
+    border: 1px solid #85144B;
+}
+
+.az-border-hover-1-white:hover
+{
+    border: 1px solid #FFFFFF;
+}
+
+.az-border-hover-1-gray:hover
+{
+    border: 1px solid #AAAAAA;
+}
+
+.az-border-hover-1-silver:hover
+{
+    border: 1px solid #DDDDDD;
+}
+
+.az-border-hover-1-black:hover
+{
+    border: 1px solid #000000;
+}
+
+.az-border-hover-1-teal:hover
+{
+    border: 1px solid #009688;
+}
+
+.az-border-hover-1-blue-grey:hover
+{
+    border: 1px solid #607d8b;
+}
+
+
+/* Border Left Hover 1 */
+.az-border-left-hover-1-fire-engine:hover
+{
+    border-left: 1px solid #E81123;
+}
+
+.az-border-left-hover-1-harley-davidson-orange:hover
+{
+    border-left: 1px solid #D83B01;
+}
+
+.az-border-left-hover-1-selective-yellow:hover
+{
+    border-left: 1px solid #FFB900;
+}
+
+.az-border-left-hover-1-green:hover
+{
+    border-left: 1px solid #107C10;
+}
+
+.az-border-left-hover-1-pine-green:hover
+{
+    border-left: 1px solid #008272;
+}
+
+.az-border-left-hover-1-navy-blue:hover
+{
+    border-left: 1px solid #0078D7;
+}
+
+.az-border-left-hover-1-kelly-green:hover
+{
+    border-left: 1px solid #5DC21E;
+}
+
+.az-border-left-hover-1-navy:hover
+{
+    border-left: 1px solid #001F3F;
+}
+
+.az-border-left-hover-1-blue:hover
+{
+    border-left: 1px solid #0074D9;
+}
+
+.az-border-left-hover-1-aqua:hover
+{
+    border-left: 1px solid #7FDBFF;
+}
+
+.az-border-left-hover-1-olive:hover
+{
+    border-left: 1px solid #3D9970;
+}
+
+.az-border-left-hover-1-lime:hover
+{
+    border-left: 1px solid #01FF70;
+}
+
+.az-border-left-hover-1-orange:hover
+{
+    border-left: 1px solid #FF851B;
+}
+
+.az-border-left-hover-1-red:hover
+{
+    border-left: 1px solid #FF4136;
+}
+
+.az-border-left-hover-1-fuchsia:hover
+{
+    border-left: 1px solid #F012BE;
+}
+
+.az-border-left-hover-1-purple:hover
+{
+    border-left: 1px solid #B10DC9;
+}
+
+.az-border-left-hover-1-maroon:hover
+{
+    border-left: 1px solid #85144B;
+}
+
+.az-border-left-hover-1-white:hover
+{
+    border-left: 1px solid #FFFFFF;
+}
+
+.az-border-left-hover-1-gray:hover
+{
+    border-left: 1px solid #AAAAAA;
+}
+
+.az-border-left-hover-1-silver:hover
+{
+    border-left: 1px solid #DDDDDD;
+}
+
+.az-border-left-hover-1-black:hover
+{
+    border-left: 1px solid #000000;
+}
+
+.az-border-left-hover-1-teal:hover
+{
+    border-left: 1px solid #009688;
+}
+
+.az-border-left-hover-1-blue-grey:hover
+{
+    border-left: 1px solid #607d8b;
+}
+
+
+/* Border Top Hover 1 */
+.az-border-top-hover-1-fire-engine:hover
+{
+    border-top: 1px solid #E81123;
+}
+
+.az-border-top-hover-1-harley-davidson-orange:hover
+{
+    border-top: 1px solid #D83B01;
+}
+
+.az-border-top-hover-1-selective-yellow:hover
+{
+    border-top: 1px solid #FFB900;
+}
+
+.az-border-top-hover-1-green:hover
+{
+    border-top: 1px solid #107C10;
+}
+
+.az-border-top-hover-1-pine-green:hover
+{
+    border-top: 1px solid #008272;
+}
+
+.az-border-top-hover-1-navy-blue:hover
+{
+    border-top: 1px solid #0078D7;
+}
+
+.az-border-top-hover-1-kelly-green:hover
+{
+    border-top: 1px solid #5DC21E;
+}
+
+.az-border-top-hover-1-navy:hover
+{
+    border-top: 1px solid #001F3F;
+}
+
+.az-border-top-hover-1-blue:hover
+{
+    border-top: 1px solid #0074D9;
+}
+
+.az-border-top-hover-1-aqua:hover
+{
+    border-top: 1px solid #7FDBFF;
+}
+
+.az-border-top-hover-1-olive:hover
+{
+    border-top: 1px solid #3D9970;
+}
+
+.az-border-top-hover-1-lime:hover
+{
+    border-top: 1px solid #01FF70;
+}
+
+.az-border-top-hover-1-orange:hover
+{
+    border-top: 1px solid #FF851B;
+}
+
+.az-border-top-hover-1-red:hover
+{
+    border-top: 1px solid #FF4136;
+}
+
+.az-border-top-hover-1-fuchsia:hover
+{
+    border-top: 1px solid #F012BE;
+}
+
+.az-border-top-hover-1-purple:hover
+{
+    border-top: 1px solid #B10DC9;
+}
+
+.az-border-top-hover-1-maroon:hover
+{
+    border-top: 1px solid #85144B;
+}
+
+.az-border-top-hover-1-white:hover
+{
+    border-top: 1px solid #FFFFFF;
+}
+
+.az-border-top-hover-1-gray:hover
+{
+    border-top: 1px solid #AAAAAA;
+}
+
+.az-border-top-hover-1-silver:hover
+{
+    border-top: 1px solid #DDDDDD;
+}
+
+.az-border-top-hover-1-black:hover
+{
+    border-top: 1px solid #000000;
+}
+
+.az-border-top-hover-1-teal:hover
+{
+    border-top: 1px solid #009688;
+}
+
+.az-border-top-hover-1-blue-grey:hover
+{
+    border-top: 1px solid #607d8b;
+}
+
+
+/* Border Right Hover 1 */
+.az-border-right-hover-1-fire-engine:hover
+{
+    border-right: 1px solid #E81123;
+}
+
+.az-border-right-hover-1-harley-davidson-orange:hover
+{
+    border-right: 1px solid #D83B01;
+}
+
+.az-border-right-hover-1-selective-yellow:hover
+{
+    border-right: 1px solid #FFB900;
+}
+
+.az-border-right-hover-1-green:hover
+{
+    border-right: 1px solid #107C10;
+}
+
+.az-border-right-hover-1-pine-green:hover
+{
+    border-right: 1px solid #008272;
+}
+
+.az-border-right-hover-1-navy-blue:hover
+{
+    border-right: 1px solid #0078D7;
+}
+
+.az-border-right-hover-1-kelly-green:hover
+{
+    border-right: 1px solid #5DC21E;
+}
+
+.az-border-right-hover-1-navy:hover
+{
+    border-right: 1px solid #001F3F;
+}
+
+.az-border-right-hover-1-blue:hover
+{
+    border-right: 1px solid #0074D9;
+}
+
+.az-border-right-hover-1-aqua:hover
+{
+    border-right: 1px solid #7FDBFF;
+}
+
+.az-border-right-hover-1-olive:hover
+{
+    border-right: 1px solid #3D9970;
+}
+
+.az-border-right-hover-1-lime:hover
+{
+    border-right: 1px solid #01FF70;
+}
+
+.az-border-right-hover-1-orange:hover
+{
+    border-right: 1px solid #FF851B;
+}
+
+.az-border-right-hover-1-red:hover
+{
+    border-right: 1px solid #FF4136;
+}
+
+.az-border-right-hover-1-fuchsia:hover
+{
+    border-right: 1px solid #F012BE;
+}
+
+.az-border-right-hover-1-purple:hover
+{
+    border-right: 1px solid #B10DC9;
+}
+
+.az-border-right-hover-1-maroon:hover
+{
+    border-right: 1px solid #85144B;
+}
+
+.az-border-right-hover-1-white:hover
+{
+    border-right: 1px solid #FFFFFF;
+}
+
+.az-border-right-hover-1-gray:hover
+{
+    border-right: 1px solid #AAAAAA;
+}
+
+.az-border-right-hover-1-silver:hover
+{
+    border-right: 1px solid #DDDDDD;
+}
+
+.az-border-right-hover-1-black:hover
+{
+    border-right: 1px solid #000000;
+}
+
+.az-border-right-hover-1-teal:hover
+{
+    border-right: 1px solid #009688;
+}
+
+.az-border-right-hover-1-blue-grey:hover
+{
+    border-right: 1px solid #607d8b;
+}
+
+
+/* Border Bottom Hover 1 */
+.az-border-bottom-hover-1-fire-engine:hover
+{
+    border-bottom: 1px solid #E81123;
+}
+
+.az-border-bottom-hover-1-harley-davidson-orange:hover
+{
+    border-bottom: 1px solid #D83B01;
+}
+
+.az-border-bottom-hover-1-selective-yellow:hover
+{
+    border-bottom: 1px solid #FFB900;
+}
+
+.az-border-bottom-hover-1-green:hover
+{
+    border-bottom: 1px solid #107C10;
+}
+
+.az-border-bottom-hover-1-pine-green:hover
+{
+    border-bottom: 1px solid #008272;
+}
+
+.az-border-bottom-hover-1-navy-blue:hover
+{
+    border-bottom: 1px solid #0078D7;
+}
+
+.az-border-bottom-hover-1-kelly-green:hover
+{
+    border-bottom: 1px solid #5DC21E;
+}
+
+.az-border-bottom-hover-1-navy:hover
+{
+    border-bottom: 1px solid #001F3F;
+}
+
+.az-border-bottom-hover-1-blue:hover
+{
+    border-bottom: 1px solid #0074D9;
+}
+
+.az-border-bottom-hover-1-aqua:hover
+{
+    border-bottom: 1px solid #7FDBFF;
+}
+
+.az-border-bottom-hover-1-olive:hover
+{
+    border-bottom: 1px solid #3D9970;
+}
+
+.az-border-bottom-hover-1-lime:hover
+{
+    border-bottom: 1px solid #01FF70;
+}
+
+.az-border-bottom-hover-1-orange:hover
+{
+    border-bottom: 1px solid #FF851B;
+}
+
+.az-border-bottom-hover-1-red:hover
+{
+    border-bottom: 1px solid #FF4136;
+}
+
+.az-border-bottom-hover-1-fuchsia:hover
+{
+    border-bottom: 1px solid #F012BE;
+}
+
+.az-border-bottom-hover-1-purple:hover
+{
+    border-bottom: 1px solid #B10DC9;
+}
+
+.az-border-bottom-hover-1-maroon:hover
+{
+    border-bottom: 1px solid #85144B;
+}
+
+.az-border-bottom-hover-1-white:hover
+{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.az-border-bottom-hover-1-gray:hover
+{
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.az-border-bottom-hover-1-silver:hover
+{
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.az-border-bottom-hover-1-black:hover
+{
+    border-bottom: 1px solid #000000;
+}
+
+.az-border-bottom-hover-1-teal:hover
+{
+    border-bottom: 1px solid #009688;
+}
+
+.az-border-bottom-hover-1-blue-grey:hover
+{
+    border-bottom: 1px solid #607d8b;
+}
+
+
+/* Border Outline 1 */
+.az-border-outline-1-fire-engine
+{
+    outline: 1px solid #E81123 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-harley-davidson-orange
+{
+    outline: 1px solid #D83B01 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-selective-yellow
+{
+    outline: 1px solid #FFB900 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-green
+{
+    outline: 1px solid #107C10 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-pine-green
+{
+    outline: 1px solid #008272 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-navy-blue
+{
+    outline: 1px solid #0078D7 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-kelly-green
+{
+    outline: 1px solid #5DC21E !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-navy
+{
+    outline: 1px solid #001F3F !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-blue
+{
+    outline: 1px solid #0074D9 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-aqua
+{
+    outline: 1px solid #7FDBFF !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-olive
+{
+    outline: 1px solid #3D9970 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-lime
+{
+    outline: 1px solid #01FF70 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-orange
+{
+    outline: 1px solid #FF851B !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-red
+{
+    outline: 1px solid #FF4136 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-fuchsia
+{
+    outline: 1px solid #F012BE !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-purple
+{
+    outline: 1px solid #B10DC9 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-maroon
+{
+    outline: 1px solid #85144B !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-white
+{
+    outline: 1px solid #FFFFFF !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-silver
+{
+    outline: 1px solid #DDDDDD !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-gray
+{
+    outline: 1px solid #AAAAAA !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-black
+{
+    outline: 1px solid #000000 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-teal
+{
+    outline: 1px solid #009688 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-1-blue-grey
+{
+    outline: 1px solid #607d8b !important;
+    outline-offset: -1px !important;
+}
+
+/* Border Outline Hover 1 */
+.az-border-outline-hover-1-fire-engine:hover
+{
+    outline: 1px solid #E81123 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-harley-davidson-orange:hover
+{
+    outline: 1px solid #D83B01 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-selective-yellow:hover
+{
+    outline: 1px solid #FFB900 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-green:hover
+{
+    outline: 1px solid #107C10 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-pine-green:hover
+{
+    outline: 1px solid #008272 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-navy-blue:hover
+{
+    outline: 1px solid #0078D7 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-kelly-green:hover
+{
+    outline: 1px solid #5DC21E !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-navy:hover
+{
+    outline: 1px solid #001F3F !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-blue:hover
+{
+    outline: 1px solid #0074D9 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-aqua:hover
+{
+    outline: 1px solid #7FDBFF !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-olive:hover
+{
+    outline: 1px solid #3D9970 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-lime:hover
+{
+    outline: 1px solid #01FF70 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-orange:hover
+{
+    outline: 1px solid #FF851B !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-red:hover
+{
+    outline: 1px solid #FF4136 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-fuchsia:hover
+{
+    outline: 1px solid #F012BE !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-purple:hover
+{
+    outline: 1px solid #B10DC9 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-maroon:hover
+{
+    outline: 1px solid #85144B !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-white:hover
+{
+    outline: 1px solid #FFFFFF !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-silver:hover
+{
+    outline: 1px solid #DDDDDD !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-gray:hover
+{
+    outline: 1px solid #AAAAAA !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-black:hover
+{
+    outline: 1px solid #000000 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-teal:hover
+{
+    outline: 1px solid #009688 !important;
+    outline-offset: -1px !important;
+}
+
+.az-border-outline-hover-1-blue-grey:hover
+{
+    outline: 1px solid #607d8b !important;
+    outline-offset: -1px !important;
+}
+
+

@@ -1,0 +1,449 @@
+﻿
+<!DOCTYPE html>
+<html lang="no">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/az-1.0.0.min.css" />
+    <link rel="stylesheet" href="/lib/templates/standard.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/fontawesome-all.css" />
+    <link rel="stylesheet" href="/lib/jqueryui/jquery-ui.min.css" />
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/lib/js/jquery.easing.min.js"></script>
+    <script src="/lib/js/jquery.matchHeight.js"></script>
+    <script src="/lib/js/moment-with-langs.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/jqueryui/jquery_ui_langs.js"></script>
+    <script src="/lib/numeral/numeral.min.js"></script>
+    <script src="/lib/numeral/locales.min.js"></script>
+    <script src="/lib/templates/functionlib.js"></script>
+    <script src="/lib/js/az-1.0.0.min.js"></script>
+    <script>
+
+        $(document).ready(function ()
+        {
+            initializePage(
+                {
+                    formStyle: true
+                }, function ()
+                {
+                    $(".az-col").css({ "text-align": "center", "padding-top": "20px" });
+                    $(".az-col").each(function (i)
+                    {
+                        $(this).html($(this)[0].classList[3] + '<p style="margin: 10px">' + (Number(i) + 1) + '</p>');
+                    });
+                    $("#row1 > .az-col").css({ "background-color": "#bbbbbb" });
+                    hideCoverSpin();
+                });
+        });
+
+    </script>
+</head>
+<body>
+
+    <form id="frmReg">
+        <div class="az-container">
+
+            <div id="row1" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-fire-engine"></div>
+                <div class="az-col xs-12 sm-6 az-harley-davidson-orange"></div>
+                <div class="az-col xs-12 sm-6 az-selective-yellow"></div>
+                <div class="az-col xs-12 sm-6 az-green"></div>
+                <div class="az-col xs-12 sm-6 az-pine-green"></div>
+                <div class="az-col xs-12 sm-6 az-navy-blue"></div>
+                <div class="az-col xs-12 sm-6 az-kelly-green"></div>
+                <div class="az-col xs-12 sm-6 az-navy"></div>
+                <div class="az-col xs-12 sm-6 az-blue"></div>
+                <div class="az-col xs-12 sm-6 az-aqua"></div>
+                <div class="az-col xs-12 sm-6 az-olive"></div>
+                <div class="az-col xs-12 sm-6 az-lime"></div>
+                <div class="az-col xs-12 sm-6 az-orange"></div>
+                <div class="az-col xs-12 sm-6 az-red"></div>
+                <div class="az-col xs-12 sm-6 az-fuchsia"></div>
+                <div class="az-col xs-12 sm-6 az-purple"></div>
+                <div class="az-col xs-12 sm-6 az-maroon"></div>
+                <div class="az-col xs-12 sm-6 az-white"></div>
+                <div class="az-col xs-12 sm-6 az-gray"></div>
+                <div class="az-col xs-12 sm-6 az-silver"></div>
+                <div class="az-col xs-12 sm-6 az-black"></div>
+                <div class="az-col xs-12 sm-6 az-teal"></div>
+                <div class="az-col xs-12 sm-6 az-blue-grey"></div>
+            </div>
+
+            <div id="row2" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-bg-fire-engine"></div>
+                <div class="az-col xs-12 sm-6 az-bg-harley-davidson-orange"></div>
+                <div class="az-col xs-12 sm-6 az-bg-selective-yellow"></div>
+                <div class="az-col xs-12 sm-6 az-bg-green"></div>
+                <div class="az-col xs-12 sm-6 az-bg-pine-green"></div>
+                <div class="az-col xs-12 sm-6 az-bg-navy-blue"></div>
+                <div class="az-col xs-12 sm-6 az-bg-kelly-green"></div>
+                <div class="az-col xs-12 sm-6 az-bg-navy"></div>
+                <div class="az-col xs-12 sm-6 az-bg-blue"></div>
+                <div class="az-col xs-12 sm-6 az-bg-aqua"></div>
+                <div class="az-col xs-12 sm-6 az-bg-olive"></div>
+                <div class="az-col xs-12 sm-6 az-bg-lime"></div>
+                <div class="az-col xs-12 sm-6 az-bg-orange"></div>
+                <div class="az-col xs-12 sm-6 az-bg-red"></div>
+                <div class="az-col xs-12 sm-6 az-bg-fuchsia"></div>
+                <div class="az-col xs-12 sm-6 az-bg-purple"></div>
+                <div class="az-col xs-12 sm-6 az-bg-maroon"></div>
+                <div class="az-col xs-12 sm-6 az-bg-white"></div>
+                <div class="az-col xs-12 sm-6 az-bg-gray"></div>
+                <div class="az-col xs-12 sm-6 az-bg-silver"></div>
+                <div class="az-col xs-12 sm-6 az-bg-black"></div>
+                <div class="az-col xs-12 sm-6 az-bg-teal"></div>
+                <div class="az-col xs-12 sm-6 az-bg-blue-grey"></div>
+            </div>
+
+            <div id="row3" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-bg-hover-fire-engine"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-harley-davidson-orange"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-selective-yellow"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-green"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-pine-green"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-navy-blue"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-kelly-green"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-navy"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-blue"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-aqua"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-olive"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-lime"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-orange"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-red"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-fuchsia"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-purple"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-maroon"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-white"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-gray"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-silver"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-black"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-teal"></div>
+                <div class="az-col xs-12 sm-6 az-bg-hover-blue-grey"></div>
+            </div>
+
+            <div id="row4" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row5" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-left-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row6" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-top-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row7" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-right-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row8" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row9" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-hover-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-hover-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row10" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-left-hover-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row11" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-top-hover-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row12" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-right-hover-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row13" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-fire-engine" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-harley-davidson-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-selective-yellow" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-pine-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-navy-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-kelly-green" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-navy" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-blue" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-aqua" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-olive" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-lime" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-orange" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-red" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-fuchsia" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-purple" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-maroon" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-white" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-gray" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-silver" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-black" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-teal" style="width: 48%;"></div>
+                <div class="az-col xs-12 sm-6 az-border-bottom-hover-1-blue-grey" style="width: 48%;"></div>
+            </div>
+
+            <div id="row14" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-outline-1-fire-engine"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-harley-davidson-orange"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-selective-yellow"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-green"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-pine-green"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-navy-blue"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-kelly-green"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-navy"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-blue"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-aqua"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-olive"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-lime"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-orange"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-red"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-fuchsia"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-purple"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-maroon"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-white"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-gray"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-silver"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-black"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-teal"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-1-blue-grey"></div>
+            </div>
+
+            <div id="row15" class="az-row az-margin-t-56">
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-fire-engine"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-harley-davidson-orange"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-selective-yellow"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-green"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-pine-green"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-navy-blue"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-kelly-green"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-navy"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-blue"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-aqua"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-olive"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-lime"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-orange"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-red"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-fuchsia"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-purple"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-maroon"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-white"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-gray"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-silver"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-black"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-teal"></div>
+                <div class="az-col xs-12 sm-6 az-border-outline-hover-1-blue-grey"></div>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>

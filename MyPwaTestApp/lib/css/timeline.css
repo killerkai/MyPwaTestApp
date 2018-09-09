@@ -1,0 +1,195 @@
+﻿
+.az-timeline
+{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+    .az-timeline::after
+    {
+        content: '';
+        position: absolute;
+        width: 6px;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+    }
+
+    .az-timeline > .az-timeline-container
+    {
+        position: relative;
+        width: 50%;
+        padding: 7px 31px 7px 31px;
+        box-sizing: border-box;
+    }
+
+        /* Circles */
+        .az-timeline > .az-timeline-container::after
+        {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            top: 15px;
+            right: -16.5px;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+        }
+
+        .az-timeline > .az-timeline-container.left
+        {
+            left: 0;
+        }
+
+        .az-timeline > .az-timeline-container.right
+        {
+            left: 50%;
+        }
+
+        /* Arrows (pointing right) */
+        .az-timeline > .az-timeline-container.left::before
+        {
+            content: ' ';
+            position: absolute;
+            z-index: 1;
+            top: 21px;
+            right: 21px;
+            width: 0;
+            height: 0;
+        }
+
+        /* Arrows (pointing left) */
+        .az-timeline > .az-timeline-container.right::before
+        {
+            content: ' ';
+            position: absolute;
+            z-index: 1;
+            top: 21px;
+            left: 21px;
+            width: 0;
+            height: 0;
+        }
+
+        /* Fix the circle for containers on the right side */
+        .az-timeline > .az-timeline-container.right::after
+        {
+            left: -16.5px;
+        }
+
+        /* Content */
+        .az-timeline-card
+        {
+            display: block;
+            position: relative;
+            margin: 0;
+            overflow: visible;
+            white-space: normal;
+        }
+
+        .az-timeline-card > header
+        {
+            padding: 7px;
+        }
+
+        .az-timeline-card > article
+        {
+            padding: 7px;
+        }
+
+        .az-timeline-card > footer
+		{
+            padding: 7px;
+		}
+
+        .az-timeline-card > header.right-left,
+		.az-timeline-card > article.right-left,
+		.az-timeline-card > footer.right-left
+		{
+			text-align: right;
+		}
+
+		.az-timeline-card > header.left-right,
+		.az-timeline-card > article.left-right,
+		.az-timeline-card > footer.left-right
+		{
+			text-align: left;
+		}
+
+	/* Responsive */
+	@media (max-width: 576px)
+	{
+		.az-timeline::after
+		{
+			left: 31px;
+		}
+
+		.az-timeline > .az-timeline-container
+		{
+			width: 100%;
+			padding-left: 61px;
+			padding-right: 14px;
+		}
+
+			.az-timeline > .az-timeline-container.left::before, .az-timeline > .az-timeline-container.right::before
+			{
+				left: 50px;
+			}
+
+		.az-timeline > .az-timeline-container.left::after, .az-timeline > .az-timeline-container.right::after
+		{
+			left: 14px;
+		}
+
+		.az-timeline > .az-timeline-container.right
+		{
+			left: 0%;
+		}
+
+			.az-timeline-card > header.right-left,
+			.az-timeline-card > article.right-left,
+			.az-timeline-card > footer.right-left
+			{
+				text-align: left;
+			}
+
+			.az-timeline-card > header.left-right,
+			.az-timeline-card > article.left-right,
+			.az-timeline-card > footer.left-right
+			{
+				text-align: right;
+			}
+	}
+
+/* Overlay */
+.az-timeline-card:hover .az-timeline-overlay
+{
+    opacity: 1;
+}
+
+.az-timeline-card > .az-timeline-overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+    .az-timeline-overlay-card
+    {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .az-timeline-overlay-card > article
+    {
+        padding: 7px;
+    }

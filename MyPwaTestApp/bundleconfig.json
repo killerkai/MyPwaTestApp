@@ -1,0 +1,28 @@
+[
+  {
+    "outputFileName": "lib/css/az-1.0.0.css",
+    "inputFiles": [
+      "lib/css/accordion.css",
+      "lib/css/card.css",
+      "lib/css/color.css",
+      "lib/css/default.css",
+      "lib/css/form.css",
+      "lib/css/grid.css",
+      "lib/css/list.css",
+      "lib/css/navbar.css",
+      "lib/css/normalize.css",
+      "lib/css/parallax.css",
+      "lib/css/portfolio.css",
+      "lib/css/sidebar.css",
+      "lib/css/table.css",
+      "lib/css/timeline.css"
+    ]
+  },
+  {
+    "outputFileName": "lib/js/az-1.0.0.js",
+    "inputFiles": [
+      "lib/js/functionlib.js",
+      "lib/js/validation.js"
+    ]
+  }
+]

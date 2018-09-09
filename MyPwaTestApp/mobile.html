@@ -1,0 +1,154 @@
+﻿
+<!DOCTYPE html>
+<html lang="no">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/az-1.0.0.min.css" />
+    <link rel="stylesheet" href="/lib/templates/standard.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/fontawesome-all.css" />
+    <link rel="stylesheet" href="/lib/jqueryui/jquery-ui.min.css" />
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/lib/js/jquery.easing.min.js"></script>
+    <script src="/lib/js/jquery.matchHeight.js"></script>
+    <script src="/lib/js/moment-with-langs.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/jqueryui/jquery_ui_langs.js"></script>
+    <script src="/lib/numeral/numeral.min.js"></script>
+    <script src="/lib/numeral/locales.min.js"></script>
+    <script src="/lib/templates/functionlib.js"></script>
+    <script src="/lib/js/az-1.0.0.min.js"></script>
+    <script>
+
+        $(document).ready(function ()
+        {
+            setNavbarTopMenu();
+            setNavbarBottomMenu();
+            $(window).resize(function ()
+            {
+            });
+
+            var _ScrollPos = 0;
+            $(window).scroll(function (e)
+            {
+                var _CurScrollPos = $(this).scrollTop();
+                if (_CurScrollPos > 50)
+                {
+                    document.getElementById("az-navbar-top-content").style.top = "0";
+                }
+                else
+                {
+                    document.getElementById("az-navbar-top-content").style.top = "-100px";
+                }
+
+                if (_CurScrollPos > _ScrollPos)
+                {
+                    consoleLog("Down")
+                }
+                else
+                {
+                    consoleLog("Up")
+                }
+                _ScrollPos = _CurScrollPos;
+            });
+        });
+
+        function setNavbarTopMenu()
+        {
+            var _$NavbarMenu = $(".az-navbar-top-content-box, #az-window-slider");
+            if (_$NavbarMenu.length > 0)
+            {
+                _$NavbarMenu.off().on("click", function (e)
+                {
+                    e.stopPropagation();
+                    $("#az-window-slider").toggleClass('az-window-close');
+                    if ($("#az-window-slider").hasClass('az-window-close'))
+                    {
+                        $('body').css({ "overflow": "hidden" });
+                    }
+                    else
+                    {
+                        $('body').css({ "overflow": "visible" });
+                    }
+                });
+            }
+        }
+
+        function setNavbarBottomMenu()
+        {
+            var _$NavbarMenu = $(".az-navbar-bottom-table");
+            if (_$NavbarMenu.length > 0)
+            {
+                _$NavbarMenu.off().on("click", "td", function (e)
+                {
+                    e.stopPropagation();
+                    var _$Anchor = $(this);
+                    console.log(_$Anchor.attr("data-id"))
+                });
+            }
+        }
+
+    </script>
+    <style>
+
+        #az-window-slider
+        {
+            position: fixed;
+            z-index: 5001;
+            width: 100%;
+            height: 0;
+            bottom: 0;
+            overflow: hidden;
+            background-color: #FFFFFF;
+            transition: height .5s;
+        }
+
+            #az-window-slider.az-window-close
+            {
+                height: 100%;
+            }
+    </style>
+</head>
+<body>
+
+    <form id="frmReg">
+
+        <div id="az-navbar-top-content" class="az-navbar az-navbar-sticky az-bg-teal">
+            <div class="az-navbar-top-content-box">
+                <i class="fas fa-search fa-lg fa-fw az-black"></i>
+                <span class="az-text-large az-black">Hva / Hvor / Hvordan</span>
+            </div>
+        </div>
+
+
+
+        <div id="az-navbar-bottom" class="az-navbar az-navbar-sticky az-bg-teal">
+            <table class="az-navbar-bottom-table">
+                <tr>
+                    <td width="25%" data-id="1"><i class="fas fa-search fa-lg fa-fw"></i><p>Søk</p></td>
+                    <td width="25%" data-id="2"><i class="fas fa-suitcase fa-lg fa-fw"></i><p>Turer</p></td>
+                    <td width="25%" data-id="3"><i class="fas fa-inbox fa-lg fa-fw"></i><p>Innboks</p></td>
+                    <td width="25%" data-id="4"><i class="fas fa-user fa-lg fa-fw"></i><p>Profil</p></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="az-window-slider"></div>
+
+    </form>
+
+</body>
+</html>
+
+
+
+
+

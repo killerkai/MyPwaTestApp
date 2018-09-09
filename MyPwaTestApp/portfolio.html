@@ -1,0 +1,195 @@
+﻿
+<!DOCTYPE html>
+<html lang="no">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/az-1.0.0.min.css" />
+    <link rel="stylesheet" href="/lib/templates/standard.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/fontawesome-all.css" />
+    <link rel="stylesheet" href="/lib/jqueryui/jquery-ui.min.css" />
+    <script src="/lib/js/jquery-3.1.1.min.js"></script>
+    <script src="/lib/js/jquery.easing.min.js"></script>
+    <script src="/lib/js/jquery.matchHeight.js"></script>
+    <script src="/lib/js/moment-with-langs.min.js"></script>
+    <script src="/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="/lib/jqueryui/jquery_ui_langs.js"></script>
+    <script src="/lib/numeral/numeral.min.js"></script>
+    <script src="/lib/numeral/locales.min.js"></script>
+    <script src="/lib/templates/functionlib.js"></script>
+    <script src="/lib/js/az-1.0.0.min.js"></script>
+    <script>
+
+        $(document).ready(function ()
+        {
+            initializePage(
+                {
+                    formStyle: true
+                }, function ()
+                {
+                    hideCoverSpin();
+                });
+        });
+
+    </script>
+</head>
+<body>
+
+    <form id="frmReg">
+        <div class="az-container">
+
+            <div class="az-row az-margin-t-28 az-margin-b-28">
+                <div class="az-col xs-12">
+
+                    <ul class="az-portfolio-menu">
+                        <li data-filter="*">Alle</li>
+                        <li data-filter=".1">Innhold 1</li>
+                        <li data-filter=".2">Innhold 2</li>
+                        <li data-filter=".3">Innhold 3</li>
+                        <li data-filter=".4">Innhold 4</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="az-row">
+                <div class="az-col xs-12">
+
+                    <ul class="az-portfolio-content">
+
+                        <li class="1">
+                            <img src="web2net/slideshow1.jpg" />
+                        </li>
+                        <li class="1">
+                            <div class="az-portfolio-card">
+                                <article>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </article>
+
+                                <div class="az-portfolio-overlay">
+                                    <div class="az-portfolio-overlay-card az-display-middle">
+                                        <article>
+                                            <h1>John Doe</h1>
+                                            <p><i class="fas fa-home fa-lg"></i><span class="az-margin-l-7">8 Mile Road</span></p>
+                                            <p><i class="fas fa-phone fa-lg"></i><span class="az-margin-l-7">+47 123 45 678</span></p>
+                                            <p><i class="fas fa-envelope fa-lg"></i><span class="az-margin-l-7">john.doe@web2net.no</span></p>
+                                        </article>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="1">
+                            <img src="web2net/slideshow3.jpg" />
+                        </li>
+
+                        <li class="2">
+                            <img src="web2net/slideshow1.jpg" />
+                        </li>
+                        <li class="2">
+                            <div class="az-portfolio-card">
+                                <header>
+                                    <h1>Header 1</h1>
+                                </header>
+                                <article>
+                                    <p>Lorem ipsum.</p>
+                                </article>
+                                <footer>
+                                    <h1>Footer</h1>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="2">
+                            <img src="web2net/slideshow3.jpg" />
+                        </li>
+
+                        <li class="3">
+                            <div class="az-portfolio-card">
+                                <header>
+                                    <h1>Header 1</h1>
+                                </header>
+                                <article>
+                                    <p>Lorem ipsum.</p>
+                                </article>
+                                <footer>
+                                    <h1>Footer</h1>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="3">
+                            <div class="az-portfolio-card">
+                                <header>
+                                    <h1>Header 1</h1>
+                                </header>
+                                <article>
+                                    <p>Lorem ipsum.</p>
+                                </article>
+                                <footer>
+                                    <h1>Footer</h1>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="3">
+                            <img src="web2net/slideshow2.jpg" />
+                        </li>
+
+                        <li class="4">
+                            <div class="az-portfolio-card">
+                                <article>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </article>
+
+                                <div class="az-portfolio-overlay">
+                                    <div class="az-portfolio-overlay-card az-display-middle">
+                                        <article>
+                                            <h1>John Doe</h1>
+                                            <p><i class="fas fa-home fa-lg"></i><span class="az-margin-l-7">8 Mile Road</span></p>
+                                            <p><i class="fas fa-phone fa-lg"></i><span class="az-margin-l-7">+47 123 45 678</span></p>
+                                            <p><i class="fas fa-envelope fa-lg"></i><span class="az-margin-l-7">john.doe@web2net.no</span></p>
+                                        </article>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="4">
+                            <img src="web2net/slideshow2.jpg" />
+                        </li>
+                        <li class="4">
+                            <div class="az-portfolio-card">
+                                <article>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </article>
+
+                                <div class="az-portfolio-overlay">
+                                    <div class="az-portfolio-overlay-card az-display-middle">
+                                        <article>
+                                            <h1>John Doe</h1>
+                                            <p><i class="fas fa-home fa-lg"></i><span class="az-margin-l-7">8 Mile Road</span></p>
+                                            <p><i class="fas fa-phone fa-lg"></i><span class="az-margin-l-7">+47 123 45 678</span></p>
+                                            <p><i class="fas fa-envelope fa-lg"></i><span class="az-margin-l-7">john.doe@web2net.no</span></p>
+                                        </article>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>

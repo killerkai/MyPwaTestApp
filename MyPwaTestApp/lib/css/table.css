@@ -1,0 +1,118 @@
+﻿
+.az-table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0;
+}
+
+
+/* Size XS ----------*/
+.az-table.az-xs-left
+{
+    margin-right: auto;
+    margin-left: 0px;
+}
+
+.az-table.az-xs-center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.az-table.az-xs-right
+{
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+/* Size SM ----*/
+@media (min-width: 576px)
+{
+	.az-table.az-sm-left
+	{
+		margin-right: auto;
+		margin-left: 0px;
+	}
+
+	.az-table.az-sm-center
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.az-table.az-sm-right
+	{
+		margin-right: 0px;
+		margin-left: auto;
+	}
+}
+
+
+/* Size MD ----*/
+@media (min-width: 768px)
+{
+	.az-table.az-md-left
+	{
+		margin-right: auto;
+		margin-left: 0px;
+	}
+
+	.az-table.az-md-center
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.az-table.az-md-right
+	{
+		margin-right: 0px;
+		margin-left: auto;
+	}
+}
+
+
+/* Size LG ----*/
+@media (min-width: 992px)
+{
+	.az-table.az-lg-left
+	{
+		margin-right: auto;
+		margin-left: 0px;
+	}
+
+	.az-table.az-lg-center
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.az-table.az-lg-right
+	{
+		margin-right: 0px;
+		margin-left: auto;
+	}
+}
+
+
+/* Size XL ----*/
+@media (min-width: 1200px)
+{
+	.az-table.az-xl-left
+	{
+		margin-right: auto;
+		margin-left: 0px;
+	}
+
+	.az-table.az-xl-center
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.az-table.az-xl-right
+	{
+		margin-right: 0px;
+		margin-left: auto;
+	}
+}

@@ -1,0 +1,41 @@
+﻿
+.az-list-card
+{
+    display: block;
+    position: relative;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+    .az-list-card > header
+    {
+        padding: 7px;
+    }
+
+        .az-list-card > header > h1
+        {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin: 0 14px 0 7px;
+        }
+
+        .az-list-card > header > button
+        {
+            padding: 3px 7px;
+        }
+
+        .az-list-card > header i
+        {
+            margin-top: 2px;
+        }
+        
+    .az-list-card > article
+    {
+        padding: 7px;
+    }
+
+    .az-list-card > footer
+    {
+        padding: 7px;
+    }
